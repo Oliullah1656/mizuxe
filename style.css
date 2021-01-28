@@ -1,0 +1,79 @@
+body{
+    margin-top: 91px;
+}
+
+#about{
+    background: url(mountains.jpg);
+    height: 600px;
+    position: relative;
+}
+.overly{
+    background:rgba(50,146,156,.7);
+    min-height: 600px;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+}
+.navbar{
+    background: white;
+    align-items: center;
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: .8;
+    
+}
+ul li{
+    
+    margin-right: 20px;
+}
+ul li a{
+    font-size: 22px;
+}
+
+ul li:last-child{
+    margin-right:0;
+}
+#about .lead{
+    color: white;
+}
+#about .btn{
+    color:white;
+    border-radius:0px;
+}
+#about .btn:hover{
+    color:black;
+}
+.form-group .btn{
+    width: 100%;
+    background-color: #43abc0;
+    border-radius: 0;
+}
+.form-control{
+    border-radius:0px;
+}
+#card .border{
+    border: 1px solid #3292a6 !important;
+    border-radius: 0px;
+}
+.card1,.card3 h1{
+    color: #3292a6;
+}
+.card2,.card4{
+    background: #3292a6;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 991px){
+   .card2,.card3,.card4{
+       margin-top: 20px;
+   }
+}
+@media screen and (max-width: 550px){
+    #about h1{
+        font-size:80px;
+    }
+}
+
